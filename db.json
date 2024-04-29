@@ -2,14 +2,14 @@
   "transactions": [
     {
       "id": 1,
-      "date": "2019-12-01",
+      "date": "2019-12-o1",
       "description": "Paycheck from Bob's Burgers",
       "category": "Income",
       "amount": 1000
     },
     {
       "id": 2,
-      "date": "2019-12-01",
+      "date": "2019-12-o1",
       "description": "South by Southwest Quinoa Bowl at Fresh & Co",
       "category": "Food",
       "amount": -10.55
@@ -31,7 +31,7 @@
     {
       "id": 5,
       "date": "2019-12-06",
-      "description": "Venmo, Alice Pays you for Burrito",
+      "description": "Venmo,Alice Pays you for Burrito",
       "category": "Food",
       "amount": 8.75
     },
