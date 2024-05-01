@@ -6,7 +6,7 @@ function TransactionsList({ searchTerm }) {
 
   useEffect(() => {
     // Fetch transactions from the backend API
-    fetch("http://localhost:8001/transactions")
+    fetch("https://bank-of-flatiron-1-ih48.onrender.com/transactions")
       .then((response) => response.json())
       .then((data) => {
         setTransactions(data);
@@ -14,7 +14,7 @@ function TransactionsList({ searchTerm }) {
   }, []);
 
   const handleDelete = (id) => {
-    fetch(`http://localhost:8001/transactions/${id}`, {
+    fetch(`https://bank-of-flatiron-1-ih48.onrender.com/transactions/${id}`, {
       method: "DELETE",
     })
       .then((response) => {

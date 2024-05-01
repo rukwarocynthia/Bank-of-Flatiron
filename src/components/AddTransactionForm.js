@@ -18,7 +18,7 @@ function AddTransactionForm({ onTransactionAdded }) {
 
   const handleSubmit = (e) => {
     e.preventDefault(); 
-    fetch("http://localhost:8001/transactions", {
+    fetch("https://bank-of-flatiron-1-ih48.onrender.com/transactions", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
